@@ -333,48 +333,6 @@ footer p{
     background-color: rgb(245,245,245);
 }
 
-/*Estilo Seccion Caracteristicas*/
-
-
-ul{
-    list-style: none;
-}
-
-li{
-    font-size: 2.5em;
-}
-
-
-.main-div-caracteristicas{
-    width: 100%;
-    height: 796px;
-    background-color: rgb(30,30,30);
-    display: flex;
-    flex-direction: row;
-
-}
-.div-coral-decoracion{
-    width: 500px;
-    height: 400px;
-}
-.div-coral-decoracion img{
-    width: 500px;
-    height: 400px;
-    margin-top: 180px;
-    margin-left: 200px;
-}
-
-.contenedor-ul{
-    width: 700px;
-    height: 350px;
-    margin-left: 100px;
-}
-.contenedor-ul li{
-    color: rgb(245,245,245);
-    font-family: 'Boogaloo', cursive;
-    font-size: 3.5em;
-}
-
 
 /*Imagen de fondo del formulario*/
 
@@ -392,53 +350,14 @@ li{
     background-position: center center;
 }
 
-/*Formulario de contacto*
+/*Formulario de contacto*/
 
-form{
-    width: 450px;
-    margin: auto;
-    background: rgba(0,0,0,0.4);
-    padding: 100px 20px;
-    padding-bottom: 15px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 7px;
+.nombre{
+    font-size: large;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-#fondo-form h2{
-    color: whitesmoke;
-    text-align: center;
-    margin: 0;
-    font-size: 30px;
-    font-family: 'Boogaloo', cursive;
-    margin-bottom: 20px;
-}
-
-#fondo-form input,textarea{
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    font-size: 17px;
-    border: none;
-}
-
-textarea{
-    min-height: 100px;
-    max-height: 200px;
-    max-width: 100%;
-}
-
-#botón{
-    padding: 20px;
-    color:whitesmoke;
-    background: black;
-}
-
-#botón:hover{
-    cursor: pointer;    
-}
-
 /*Estilo seccion preguntas*/
 
 #preguntas-pi{
