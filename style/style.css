@@ -319,7 +319,12 @@ footer{
     color: rgb(0, 0, 0);
     background-color: rgb(245,245,245);
 }
-
+.bienvenida-2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245,245,245);
+}
 
 /*Imagen de fondo del formulario*/
 
@@ -663,5 +668,15 @@ footer{
 
     #somos-pireef{
         justify-content: normal;
+    }
+
+    .bienvenida-2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 355px){
+    .bienvenida{
+        font-size: 14px;
     }
 }
