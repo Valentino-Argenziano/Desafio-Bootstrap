@@ -105,24 +105,11 @@ header:hover{
 
 footer{
     background-color: rgb(245,245,245);
-}
-
-footer .container{
     height: 91px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-footer p{
-    margin: 0;
-    color: rgb(100,100,100,);
-    padding: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: end;
-    align-items: flex-end;
-    font-weight: bold;
-}
 
 /*Estilos seccion productos*/
 
